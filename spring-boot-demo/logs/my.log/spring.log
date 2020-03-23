@@ -1,0 +1,114 @@
+2020-03-18 10:55:25.421  INFO 32992 --- [main] c.z.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 192.168.2.101 with PID 32992 (/Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo/target/classes started by zhupeihao in /Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo)
+2020-03-18 10:55:25.424 DEBUG 32992 --- [main] c.z.s.SpringBootDemoApplication          : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-18 10:55:25.424  INFO 32992 --- [main] c.z.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2020-03-18 10:55:27.244  INFO 32992 --- [main] c.z.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.357 seconds (JVM running for 3.218)
+2020-03-18 10:58:30.646  INFO 32998 --- [main] c.z.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 192.168.2.101 with PID 32998 (/Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo/target/classes started by zhupeihao in /Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo)
+2020-03-18 10:58:30.650 DEBUG 32998 --- [main] c.z.s.SpringBootDemoApplication          : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-18 10:58:30.652  INFO 32998 --- [main] c.z.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2020-03-18 10:58:32.607  INFO 32998 --- [main] c.z.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.569 seconds (JVM running for 3.695)
+2020-03-18 10:58:43.152  INFO 33001 --- [main] c.z.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 192.168.2.101 with PID 33001 (/Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo/target/classes started by zhupeihao in /Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo)
+2020-03-18 10:58:43.158 DEBUG 33001 --- [main] c.z.s.SpringBootDemoApplication          : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-18 10:58:43.160  INFO 33001 --- [main] c.z.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2020-03-18 10:58:44.885  INFO 33001 --- [main] c.z.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.313 seconds (JVM running for 3.282)
+2020-03-18 11:11:03.684  INFO 33012 --- [main] c.z.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 192.168.2.101 with PID 33012 (/Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo/target/classes started by zhupeihao in /Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo)
+2020-03-18 11:11:03.688 DEBUG 33012 --- [main] c.z.s.SpringBootDemoApplication          : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-18 11:11:03.689  INFO 33012 --- [main] c.z.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2020-03-18 11:11:04.947  WARN 33012 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet
+2020-03-18 11:11:04.959 ERROR 33012 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet:
+
+    Reason: No converter found capable of converting from type [java.lang.String] to type [org.springframework.boot.autoconfigure.web.ServerProperties$Servlet]
+
+Action:
+
+Update your application's configuration
+
+2020-03-18 11:13:47.174  INFO 33014 --- [main] c.z.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 192.168.2.101 with PID 33014 (/Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo/target/classes started by zhupeihao in /Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo)
+2020-03-18 11:13:47.177 DEBUG 33014 --- [main] c.z.s.SpringBootDemoApplication          : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-18 11:13:47.178  INFO 33014 --- [main] c.z.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2020-03-18 11:13:48.243  WARN 33014 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'servletWebServerFactoryCustomizer' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.class]: Unsatisfied dependency expressed through method 'servletWebServerFactoryCustomizer' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'server-org.springframework.boot.autoconfigure.web.ServerProperties': Could not bind properties to 'ServerProperties' : prefix=server, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet
+2020-03-18 11:13:48.261 ERROR 33014 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'server.servlet' to org.springframework.boot.autoconfigure.web.ServerProperties$Servlet:
+
+    Reason: No converter found capable of converting from type [java.lang.String] to type [org.springframework.boot.autoconfigure.web.ServerProperties$Servlet]
+
+Action:
+
+Update your application's configuration
+
+2020-03-18 11:14:28.011  INFO 33016 --- [main] c.z.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 192.168.2.101 with PID 33016 (/Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo/target/classes started by zhupeihao in /Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo)
+2020-03-18 11:14:28.015 DEBUG 33016 --- [main] c.z.s.SpringBootDemoApplication          : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-18 11:14:28.017  INFO 33016 --- [main] c.z.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2020-03-18 11:14:29.894  INFO 33016 --- [main] c.z.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.539 seconds (JVM running for 3.453)
+2020-03-18 11:29:32.019  INFO 33023 --- [main] c.z.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 192.168.2.101 with PID 33023 (/Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo/target/classes started by zhupeihao in /Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo)
+2020-03-18 11:29:32.023 DEBUG 33023 --- [main] c.z.s.SpringBootDemoApplication          : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-18 11:29:32.024  INFO 33023 --- [main] c.z.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2020-03-18 11:29:34.607  INFO 33023 --- [main] c.z.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 3.151 seconds (JVM running for 4.244)
+2020-03-18 11:32:53.634  INFO 33028 --- [main] c.z.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 192.168.2.101 with PID 33028 (/Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo/target/classes started by zhupeihao in /Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo)
+2020-03-18 11:32:53.637 DEBUG 33028 --- [main] c.z.s.SpringBootDemoApplication          : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-18 11:32:53.638  INFO 33028 --- [main] c.z.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2020-03-18 11:32:55.422  INFO 33028 --- [main] c.z.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.315 seconds (JVM running for 3.181)
+2020-03-18 11:40:41.255  INFO 33036 --- [main] c.z.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 192.168.2.101 with PID 33036 (/Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo/target/classes started by zhupeihao in /Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo)
+2020-03-18 11:40:41.259 DEBUG 33036 --- [main] c.z.s.SpringBootDemoApplication          : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-18 11:40:41.260  INFO 33036 --- [main] c.z.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2020-03-18 11:40:42.632  WARN 33036 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'book': Could not bind properties to 'Book' : prefix=book, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'book' to com.zph.springbootdemo.domain.Book
+2020-03-18 11:40:42.675 ERROR 33036 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'book' to com.zph.springbootdemo.domain.Book:
+
+    Property: book.description
+    Value: ${book.name} ,这本书还不错
+    Origin: class path resource [config/application.yml]:16:16
+    Reason: No setter found for property: description
+
+Action:
+
+Update your application's configuration
+
+2020-03-18 11:43:05.885  INFO 33044 --- [main] c.z.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 192.168.2.101 with PID 33044 (/Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo/target/classes started by zhupeihao in /Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo)
+2020-03-18 11:43:05.891 DEBUG 33044 --- [main] c.z.s.SpringBootDemoApplication          : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-18 11:43:05.892  INFO 33044 --- [main] c.z.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2020-03-18 11:43:07.447  WARN 33044 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'book': Could not bind properties to 'Book' : prefix=book, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'book' to com.zph.springbootdemo.domain.Book
+2020-03-18 11:43:07.465 ERROR 33044 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'book' to com.zph.springbootdemo.domain.Book:
+
+    Property: book.description
+    Value: ${book.name} ,这本书还不错
+    Origin: class path resource [config/application.yml]:16:16
+    Reason: No setter found for property: description
+
+Action:
+
+Update your application's configuration
+
+2020-03-18 12:09:30.245  INFO 33071 --- [main] c.z.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 192.168.2.101 with PID 33071 (/Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo/target/classes started by zhupeihao in /Users/zhupeihao/IdeaProjects/SSM/spring-boot-demo)
+2020-03-18 12:09:30.248 DEBUG 33071 --- [main] c.z.s.SpringBootDemoApplication          : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-18 12:09:30.249  INFO 33071 --- [main] c.z.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2020-03-18 12:09:32.082  INFO 33071 --- [main] c.z.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 2.451 seconds (JVM running for 3.488)

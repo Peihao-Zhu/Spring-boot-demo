@@ -1,0 +1,9 @@
+
+spring:
+  profiles:
+    active: dev  #可以指定哪个application是活跃的，直接写-后面的就可以，不需要写全程
+
+book:
+  name: "三体星人"
+  author: "傻子"
+  description: ${book.name} ,这本书还不错
