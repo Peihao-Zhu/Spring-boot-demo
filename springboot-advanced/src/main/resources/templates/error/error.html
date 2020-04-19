@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>错误</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--
+      <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}"  href="../static/css/bootstrap.min.css" type="text/css">
+   -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+<div class="container" style="max-width: 600px;margin-top: 50px">
+    <div class="jumbotron">
+        <h2>Error</h2>
+        <p>对不起，服务异常,请联系管理员</p>
+    </div>
+
+    <div th:utext="'&lt;!--'" th:remove="tag"></div>
+    <div th:utext="'Failed Request URL: '+${url}" th:remove="tag"></div>
+    <div th:utext="'Exception message: '+${exception.message}" th:remove="tag"></div>
+    <ul>
+        <li th:each="st:${exception.stackTrace}"><span th:utext="${st}" th:remove="tag"></span></li>
+    </ul>
+    <div th:utext="'--&gt'" th:remove="tag"></div>
+
+</div>
+</body>
+</html>
